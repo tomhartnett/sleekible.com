@@ -25,10 +25,5 @@ footer {
 }
 
 h1 {
-	font-family: haettenschweiler;
-}
-
-@font-face {
-  font-family: 'Haettenschweiler';
-  src: url('../fonts/Haettenschweiler.ttf');
+	font-family: 'Teko', sans-serif;
 }
