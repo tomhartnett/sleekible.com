@@ -66,9 +66,15 @@
             <footer>
                 <div class="row">
                     <div class="col-sm-6">
-                        <p>&copy; 2016-2019 <a href="http://www.sleekible.com">Sleekible, LLC</a>&nbsp;|&nbsp;<a href="index.html">SearchMoji</a></p>
+                        <span>&copy; <span id="year">2019</span> Sleekible, LLC</span>
+                    	<span>&nbsp;|&nbsp;<a href="http://www.sleekible.com">Sleekible, LLC</a></span>
+                    	<span>&nbsp;|&nbsp;<a href="index.html">SearchMoji</a></span>
                     </div>
                 </div>
+
+                <script>
+                    document.getElementById("year").innerHTML = new Date().getFullYear();
+                </script>
             </footer>
         </div>
     </div>
